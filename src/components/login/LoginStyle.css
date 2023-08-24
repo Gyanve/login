@@ -1,0 +1,80 @@
+.main{
+    height: 120vh;
+    width: 100%;
+    background-color: rgb(175, 224, 240);
+    position: relative;
+    scroll-behavior: unset;
+    position: fixed;
+}
+.heading{
+    display: flex;
+    color: rgb(226, 248, 252);
+    font-size:180px;
+    padding-bottom: 390px ;
+    /* padding-left: 100px; */
+}
+.main-container{
+    background-color: aliceblue;
+    position: absolute;
+    height: 45vh;
+    width: 35%;
+    top: 104px;
+    left: 340px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid rgb(218, 250, 255);
+    border-radius: 5%;
+    box-shadow: 12px 15px  32px rgb(124, 161, 169);
+}
+#username  {
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 10px;
+   padding-left: 20px;
+   box-shadow: 2px 4px 20px rgb(200, 201, 202);
+}
+#password{
+    margin: 20px;
+    margin-left: 34px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 10px;
+   padding-left: 20px;
+   box-shadow: 2px 4px 20px rgb(200, 201, 202);
+}
+.button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.credentials{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.btn{
+    background-color: rgb(29, 177, 232);
+    color: rgb(255, 248, 248);
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.labels{
+    color: rgb(162, 161, 161);
+}
+
+
